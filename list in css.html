@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subi Official</title>
+    <style>
+          ul li{
+            list-style-type: none;
+            list-style-type: decimal-leading-zero;
+            list-style-type: lower-roman;
+            list-style-type: upper-roman;
+            list-style-type: lower-alpha;
+            list-style-type: upper-alpha;
+            list-style-type: lwer;
+          }
+          ul li::before{
+            content: '';
+            display:inline-block;
+            margin-right: 10px;
+            height: 10px;
+            width: 10px;
+            background-color: red;
+          }
+    </style>
+</head>
+<body>
+       <h1>list properties</h1>
+
+       <ul>
+        <li>home</li>
+        <li>product</li>
+        <li>blog</li>
+        <li>download</li>
+        <li>contact</li>
+       </ul>
+</body>
+</html>

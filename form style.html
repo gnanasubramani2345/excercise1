@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubiOfficial</title>
+    <style>
+        input[type="checkbox"]:checked{
+         box-shadow:0 0 0 3px red;
+        }
+        input[type="text"]:enabled{
+            background-color: yellow;
+        }
+        input[type="text"]:disabled{
+            background-color: red;
+        }
+        input[type="text"]:required{
+            background-color: green;
+        }
+        input[type="thala"]:valid{
+            border: 3px solid teal;
+        }
+        input[type="thala"]:invalid{
+            border: 3px solid orangered;
+        }
+        input[type="radio"]:default{
+            box-shadow: 0 0 0 3px tomato;
+        }
+        option:default{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <span>:checked</span>
+    <input type="checkbox" id="cricket">
+    <label for="cricket">cricket</label>
+    <hr>
+    <span>:enabled :disabled :required :optional</span>
+    <hr>
+    <input type="text" id="txt">
+    <hr>
+    <input type="text" id="txt" required>
+    <hr>
+    <input type="text" id="txt" disabled>
+    <hr>
+    <span>read-only</span>
+    <input type="email">
+    <input type="email" readonly>
+    <hr>
+    <span>:valid | :invalid</span>
+    <input type="thala" placeholder="username" pattern="[a-z*]">
+    <hr>
+    <span>default</span>
+    <input type="radio" name="gender" id="male" checked>
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">female</label>
+    <hr>
+    <span>selection</span>
+   <select>
+    <option value="c">c</option>
+    <option value="c++">c++</option>
+    <option value="Java">Java</option>
+    <option value="Python" selected>Python</option>
+    <option value=>select</option>
+   </select>
+
+</body>
+</html>

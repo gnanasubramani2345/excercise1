@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subi Official</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+       table tr:nth-of-type(even){
+        background-color: red;
+       }
+       table tr:nth-of-type(odd){
+        background-color: yellow;
+       }
+       table th{
+        background-color: green;
+       }
+       table td:nth-of-type(even){
+        background-color: blue;
+       }
+       
+    </style>
+</head>
+<body>
+    <h1>table.css</h>
+    <table width="50%" border="1px" cellpadding="10px" cellspacing="10px">
+        <caption>Student Details</caption>
+        <colgroup>
+        <col style="width:300px">
+        <col style="width: 100px;">
+        <col style="width: 100px;">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>ram</td>
+            <td>12</td>
+            <td rowspan="2">patti</td>
+        </tr>
+        <tr>
+            <td>siva</td>
+            <td>13</td>
+           </tr>
+        <tr>
+            <td>kesavan</td>
+            <td>15</td>
+            <td>valayapatti</td>
+        </tr>
+        <tr>
+            <td>subramani</td>
+            <td>14</td>
+            <td>pudhuppatti</td>
+        </tr>
+        <tr>
+            <td>jeyabala</td>
+            <td>16</td>
+            <td>colony</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">SubiOfficial</td>
+        </tr>
+    </tfoot>
+    </table>
+  
+
+</body>
+</html>

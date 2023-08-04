@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Slab:wght@900&family=Tektur:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+   body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,red,yellow);
+}
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(225,225,225,0.06);
+    box-shadow: 0px 8px 32px 0px rgba(3,38,135,.37) ;
+    border-radius: 30px;
+    border-left: 2px solid rgba(225,225,225,.3);
+    border-top: 2px solid rgba(225,225,225,.3);
+    }
+    form:before{
+                content: '';
+                position: absolute;
+                bottom: 3%;
+                right: 28%;
+                height: 200px;
+                width: 200px;
+                background: orangered;
+                border-radius: 50%;
+                z-index: -1;
+                opacity: .7;
+    }
+    form::after{
+        content: '';
+        position: absolute;
+        top: 3%;
+        left: 28%;
+        height: 200px;
+        width: 200px;
+        background:yellow;
+        border-radius: 50%;
+        z-index: -1;
+        opacity: .7;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.9);
+    letter-spacing: 3px;
+    margin-bottom: 8%;
+    opacity: .7;
+}
+label{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.9);
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(225,225,225,.6);
+    opacity: .8;
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(225,225,225,0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(225,225,225,.32);
+    box-shadow: 3px 3px 5px rgba(31,38,135,37);
+    border-left: 1px solid rgba(225,225,225,.3) ;
+    border-top: 1px solid rgba(225,225,225,.3) ;
+
+}
+a{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    opacity: .7 ;
+}
